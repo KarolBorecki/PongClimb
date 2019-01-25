@@ -29,7 +29,7 @@ public class Ball : MonoBehaviour {
             if (Input.GetButton("Fire1"))
             {
                 Shoot();
-                transform.position = new Vector3(mouse.x, mouse.y, transform.position.y);
+                transform.position = new Vector3(mouse.x, mouse.y, 0f);
             }
             else transform.position = transform.position;
         }
@@ -47,6 +47,7 @@ public class Ball : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag=="Dead" && !isTesting){
+            Time.timeScale = 0.0f;
             Dead();
         }
     }

@@ -70,6 +70,6 @@ public class LevelGenerator : MonoBehaviour {
     }
 
     BlocksSet InstantiateBlockSet(BlocksSet set, float y){
-        return Instantiate(set, new Vector3(0, y, player.position.z), player.rotation);
+        return Instantiate(set, new Vector3(0, y, 0), player.rotation);
     }
 }

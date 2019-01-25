@@ -48,7 +48,8 @@ public class GameController : MonoBehaviour {
     }
 
     public void Play(){
-        controllerMove.Reset(); levelGenerator.GetComponent<BackgroundGenerator>().Reset();
+        controllerMove.Reset(); 
+        levelGenerator.GetComponent<BackgroundGenerator>().Reset();
 
         levelGenerator.clearStructures();
         changeIsInGame(true);
@@ -57,6 +58,7 @@ public class GameController : MonoBehaviour {
         setPointsText(0);
 
         gameObject.transform.position = startingPos;
+        player.position = new Vector3(0, -2, 0);
         pointsText.gameObject.SetActive(true);
         pointsEarnedText.gameObject.SetActive(false);
         levelGenerator.StartGeneratingStructures(record);
@@ -96,8 +98,10 @@ public class GameController : MonoBehaviour {
     private void setPointsText(int number)
     {
         points = number;
-        if (number % 75 == 0)
-            controllerMove.speed *= controllerMove.speedingUp;
+        if (number % 100 == 0)
+        {
+            controllerMove.SpeedUp();
+        }
         pointsText.text = infoPointsText + points.ToString();
     }
 

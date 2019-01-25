@@ -41,7 +41,6 @@ public class BackgroundGenerator : MonoBehaviour {
     public void Reset()
     {
         lastElement.transform.position = new Vector3(0, 7, 0);
-        Debug.Log(lastElement.position);
     }
 
 }

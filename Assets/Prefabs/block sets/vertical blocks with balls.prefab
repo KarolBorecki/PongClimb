@@ -411,7 +411,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1211454272269000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -9.176538, y: -1.6106901, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4694004542650716}
@@ -1030,7 +1030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!114 &114349315422911796
 MonoBehaviour:
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!114 &114380418195800488
 MonoBehaviour:
@@ -1121,7 +1121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!114 &114732866830487954
 MonoBehaviour:
@@ -1134,7 +1134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!114 &114773850137508018
 MonoBehaviour:
@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!114 &114786242420737342
 MonoBehaviour:
@@ -1160,7 +1160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!114 &114924711732462576
 MonoBehaviour:
@@ -1173,7 +1173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beeaf9b4c08a048b0acd0efca675f349, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  blockLive: 6
+  blockLive: 15
   recoil: 200
 --- !u!212 &212089557543674176
 SpriteRenderer:
