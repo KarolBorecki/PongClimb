@@ -699,6 +699,34 @@ Transform:
   m_Father: {fileID: 1172824149}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &850212129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 850212130}
+  m_Layer: 0
+  m_Name: Safetyreasons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &850212130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850212129}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.858522, y: -0.10166538, z: 53.87662}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1172824147
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +813,7 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1172824147}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -824,7 +852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fb8686d7de64d14b0c3b92c5ed2fd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootDelay: 0.05
+  shootDelay: 0.06
   shootForce: 1200
   shoot: {fileID: 50961930170399094, guid: bff990854f3694d33a7ca4bf074543fd, type: 2}
   shootTransform: {fileID: 644310250}
@@ -931,9 +959,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeOfFirstTransition: 15
-  timeOfTransition: 8
+  timeOfTransition: 10
   firstColor: {r: 0.6745098, g: 0.58431375, b: 0.827451, a: 0}
-  colors: {x: 0.4, y: 0.8}
+  colors: {x: 0.4, y: 0.95}
   gameController: {fileID: 2038063087}
 --- !u!1 &1292289592
 GameObject:
@@ -1592,8 +1620,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5943e80626c0146adbabd98f8c8987d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  speedingUp: 1.03
+  speed: 3.2
+  speedingUp: 0.4
+  speedingReduction: 0.97
 --- !u!4 &2038063086
 Transform:
   m_ObjectHideFlags: 0
